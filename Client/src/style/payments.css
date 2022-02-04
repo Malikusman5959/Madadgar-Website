@@ -1,0 +1,207 @@
+.payment-main .sign-up__start-section__plan-block.active > div {
+  background-color: #4acaea;
+}
+
+.payment-main .sign-up__individual-section .save-btn {
+  background-color: #2f94d2;
+  border: solid 2px #2f94d2 !important;
+}
+
+.payment-main .sign-up__individual-section .save-btn:hover {
+  color: #2f94d2;
+  background-color: transparent;
+}
+
+.payment-main .container {
+  display: flex;
+}
+
+.progress-line {
+  width: 6.4rem;
+  margin-right: 15em;
+  padding-top: 40px;
+  /* transition: all 1s ease-in-out; */
+}
+
+.progress-line__block {
+  flex-shrink: 1;
+  /* transition: all 1s ease-in-out; */
+}
+
+.progress-line__block-number {
+  font-size: 3em;
+  font-family: "Roboto", sans-serif;
+  background-color: #e3e3e3;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 6.4rem;
+  color: #fff;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.progress-line__block-bottom {
+  width: 2px;
+  height: 3em;
+  background-color: #e3e3e3;
+  margin: 0 auto;
+  transition: all 1s ease-in-out;
+}
+
+.progress-line__block.blue .progress-line__block-number {
+  background-color: #2f94d2;
+}
+
+.progress-line__block.blue .progress-line__block-bottom {
+  background-color: #2f94d2;
+  /* transition: all 2s ease-in; */
+}
+
+.payment-main .save-btn {
+  font-weight: 500;
+  margin-top: auto;
+}
+
+.payment-main {
+  margin-bottom: 8rem;
+}
+
+.payment-main .sign-up__start-section {
+  display: flex;
+}
+
+.save-btn__container {
+  margin-top: auto;
+}
+
+.save-btn.previous-btn {
+  background-color: transparent !important;
+  color: #2f94d2;
+}
+
+.save-btn.previous-btn:hover {
+  background-color: #2f94d2 !important;
+  color: #fff !important;
+}
+
+.sign-up__section-span {
+  font-size: 2.8em;
+  color: #707070;
+  font-family: "Roboto", sans-serif;
+  display: block;
+}
+
+.sign-up__section-select {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-size: 4em;
+  font-weight: 500;
+  margin: 0.5rem 0rem 2.5rem 0rem;
+}
+
+.payment-main .save-btn {
+  padding: 0.9em 0em;
+}
+
+.sign-up__individual-section {
+  display: none !important;
+}
+
+.sign-up__individual-section.active {
+  display: flex !important;
+}
+
+.payment-main .row {
+  width: 100%;
+}
+
+.save-btn__container {
+  max-width: 75em;
+}
+
+.right-step-img {
+  max-width: 230px;
+}
+
+.payment-main .custom-theme-select {
+  max-width: 75rem;
+}
+
+.membership-plan {
+  padding: 3rem 2rem;
+  border: solid 1px rgba(112, 112, 112, 0.49);
+  border-radius: 4px;
+  display: flex;
+  max-width: 190px;
+  flex-direction: column;
+}
+
+.membership-plan p,
+.membership-plan span {
+  text-align: center;
+}
+
+.membership-plan p {
+  font-size: 2.5em;
+  font-family: "Roboto", sans-serif;
+}
+
+.membership-plan__price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.membership-plan__value {
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin-left: 5px;
+}
+
+.membership-plan__type {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  color: #f8333a;
+}
+
+.membership-plan img {
+  max-width: 7.9rem;
+  height: auto;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+
+.sign-up__start-section label {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 75rem;
+}
+
+.sign-up__start-section label img {
+  max-height: 1.9em;
+  width: auto;
+}
+
+.security-data__container {
+  max-width: 75rem;
+  justify-content: space-between;
+}
+
+.security-data__container label {
+  width: 49%;
+}
+
+#first-img {
+  position: absolute;
+  right: 0;
+  top: "50%";
+}

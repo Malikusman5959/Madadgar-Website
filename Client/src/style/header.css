@@ -1,0 +1,51 @@
+.home-page .header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.5)), url(./../img/Group-81.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 16em;
+}
+
+
+.home-page .header-title{
+    padding: 4em 0em 1.58em 0em;
+    font-size: 9.6em;
+    color: #4acaea;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header-benefits{
+    display: flex;
+    justify-content: center;
+}
+
+.header-benefits__block{
+    display: flex;
+    flex-direction: column;
+    padding: 0em 7.5em;
+}
+
+.header-benefits__block span{
+    font-size: 2em;
+    color: #FFF;
+    text-align: center;
+    padding: 1em 0em 0.1em 0em;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-benefits__block p{
+    font-size: 1.5em;
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 0.25em;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-benefits__block img{
+    max-width: 24.2em;
+    margin: 0 auto;
+    height: auto;
+}

@@ -1,0 +1,17 @@
+.section-title{
+    font-size: 8em;
+    color: var(--main-text-color);
+    text-transform: uppercase;
+    font-family: 'Berlin Sans Bold', sans-serif;
+}
+
+.section-title span{
+    color: var(--main-navbar-color);
+}
+
+.section-description{
+    color: var(--main-text-color);
+    font-size: 3em;
+    max-width: 50em;
+    padding-top: 1.133em;
+}

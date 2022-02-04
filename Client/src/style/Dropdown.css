@@ -1,0 +1,38 @@
+.dropMain #hidden {
+    display: none;
+    background: #5cabff;
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  
+  .dropMain #show{
+    display: flex;
+    background: #5cabff;
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+  }
+ .dropMain ul {
+    background: #1888ff;
+    cursor: pointer;
+    height: 100px;
+    width:80px
+  }
+
+  .listitems{
+      line-height: 10px;
+      color: aliceblue;
+
+  }
+  
+  

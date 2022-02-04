@@ -1,0 +1,148 @@
+.our-team1
+{padding: 30px 10px 40px;
+margin-bottom: 30px;
+background-color: #f7f5ec;
+text-align: center;
+overflow: hidden;
+position: relative;
+display:flex;
+border-radius: 50px;
+margin: 1%;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.team-content1{
+  width: 100%;
+}
+
+  
+.our-team1 .picture {
+    display: inline-block;
+    height: 30%;
+    width: 20%;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .our-team1 .picture::before {
+    content: "";
+    height: 0;
+    border-radius: 50%;
+    background-color: #1369ce;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.9;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+  }
+  
+  .our-team1:hover .picture::before {
+    height: 100%;
+  }
+  
+  .our-team1 .picture::after {
+    content: "";
+
+    height: 100%;
+    border-radius: 50%;
+    background-color: #1369ce;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .our-team1 .picture img {
+
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+  }
+  
+  .our-team1:hover .picture img {
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+  }
+  
+.name1{
+
+    font-size: 3.5em;
+    text-align: left;
+    width: 30%;
+    margin: 0;
+    position: relative;
+    display: flex;
+}
+
+.spanClass{
+    font-size: small;
+}
+.title1{
+    font-size: xx-large;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.HiredInfo1{
+    text-align: left;
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+.JobInfo1{
+    text-align: left;
+    font-size: 3.5em;
+
+}
+.des {
+
+  text-align: left;
+  font-size: 3.5em;
+  width: 10%;
+  height: 10%;
+  margin-left: 1%;
+  word-break: break-all;
+  white-space: normal;
+  overflow: hidden;
+  position: absolute;
+}
+
+    .PaymentDisplay1{
+        font-size: large;
+        text-align: right;
+        position: absolute;
+        right:5%;
+        top:30px;
+
+        
+    
+    }
+
+    .bye1{
+        font-size: large;
+        text-align: right;
+        position: absolute;
+        right: 3%;
+        top: 100px;
+        border-radius: 25px;
+        padding: 1%;
+        background-color: #17ca35;
+        color: white;
+    }
+    
+
+    .descp{
+      text-align: left;
+      font-size: 3.5em;
+;
+      width: 70%;
+      height: auto;
+      margin-left: 1%;
+      word-break: break-all;
+      white-space: normal;
+    }
+    

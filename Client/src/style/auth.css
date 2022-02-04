@@ -1,0 +1,318 @@
+.auth .burger-menu span:before,
+.auth .burger-menu span:after,
+.auth .burger-menu span {
+  background-color: #000;
+}
+
+.auth .container {
+  max-width: 1667px;
+}
+
+.auth .sign-in-btn {
+  color: var(--main-navbar-color);
+}
+
+.auth form label {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.44em;
+}
+
+.auth form label label {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+}
+.auth form label:first-child {
+  margin-top: 0;
+}
+
+.top-bar__row ul li a {
+  color: var(--main-text-color);
+}
+
+.auth main {
+  padding: 20em 0em 0em;
+}
+
+.auth-main__row__left-col {
+  display: flex;
+  align-items: flex-start;
+}
+
+.auth-main__row__left-col h1 {
+  font-size: 5em;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  line-height: 1.44em;
+  padding-right: 2em;
+}
+
+.auth-main__row__left-col h1 .ids {
+  color: var(--main-navbar-color);
+  /* text-decoration: underline; */
+  font-size: 9rem;
+  font-weight: 800;
+}
+
+.auth-main__row__left-col h1 .club {
+  color: var(--main-green-color);
+}
+
+.auth-main__row__left-col img {
+  max-width: 41em;
+}
+
+.password-input__security-btn {
+  position: absolute;
+  right: 0.95em;
+  top: 3.65em;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+.auth-main__row__right-col .sign-in-btn {
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--main-navbar-color);
+  color: #fff;
+  border: solid 0.2em transparent;
+  border-radius: 0.15em;
+  width: 100%;
+  padding: 0.8em 0em !important;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.auth-main__row__right-col .sign-up-btn {
+  font-size: 2.75em;
+  font-family: "Roboto", sans-serif;
+  background-color: transparent;
+  color: var(--main-navbar-color);
+  border: solid 0.2em transparent;
+  border-radius: 0.15em;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 0.8em 0em;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 0.5em;
+  text-decoration: none;
+  margin-bottom: 2em;
+}
+
+.auth-main__row__right-col .forget-password {
+  font-size: 1.8em;
+  font-family: "Roboto", sans-serif;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s all ease-in-out;
+}
+
+.auth-main__row__right-col .forget-password:hover {
+  color: var(--main-navbar-color);
+  font-weight: 600;
+}
+
+.different-auth span {
+  font-size: 2em;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 3.5em;
+}
+
+.sign-in-btn:hover {
+  color: var(--main-navbar-color);
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.auth-copyright {
+  font-size: 1.6em;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 6.875em 0em 1.25em 0em;
+  font-weight: 500;
+}
+
+.sign-up-main h1 span {
+  color: var(--main-navbar-color);
+}
+
+.sign-up-main .auth-copyright {
+  text-align: left;
+  padding-top: 5em;
+}
+
+.sign-up-main h1 {
+  padding-right: 0.8em;
+}
+
+.sign-up-main .save-btn {
+  font-size: 2.5em;
+  border: none;
+  text-align: center;
+  background-color: var(--main-navbar-color);
+  color: #fff;
+  width: 100%;
+  padding: 1.2em 0em;
+  text-transform: uppercase;
+  transition: 0.1s ease-in-out;
+  border-radius: 0.5em;
+  margin-top: 12em;
+  font-family: "Roboto", sans-serif;
+}
+.sign-up-main .save-btn:hover {
+  background-color: #fff;
+  color: var(--main-navbar-color);
+  font-weight: 600;
+}
+
+.sign-up__start-section__plan {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.sign-up__start-section__plan-block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sign-up__start-section__plan-block img {
+  max-height: 13.4em;
+  width: auto;
+  margin: 4em 7em;
+}
+
+.sign-up__start-section__plan-block:nth-child(2) img {
+  margin: 4em 5em;
+}
+
+.sign-up__section-label {
+  font-size: 2.5em;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  color: var(--main-text-color);
+  margin-bottom: 1.52em;
+  font-weight: 500;
+}
+
+.sign-up__start-section__plan-block p {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+  padding-top: 1em;
+}
+
+.sign-up__start-section__plan-block.active > div:after {
+  display: block;
+}
+
+.sign-up__start-section__plan-block.active > div {
+  background-color: var(--main-navbar-color);
+  border-radius: 1em;
+  position: relative;
+}
+
+.sign-up__start-section__plan-block > div:after {
+  content: "";
+  background-image: url("../img/check.svg");
+  display: none;
+  width: 3.9em;
+  height: 3.9em;
+  background-size: 3.9em 3.9em;
+  top: 1.8em;
+  right: 1.8em;
+  position: absolute;
+}
+
+.sign-up__individual-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-main label,
+.custom-theme-select__container {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.1em !important;
+}
+
+.sign-up__individual-section .splited-col,
+.sign-up__individual-section .splited-col-1-5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.sign-up__individual-section .splited-col label {
+  margin-top: 0;
+  width: 49%;
+}
+
+.sign-up__individual-section .splited-col-1-5 .custom-theme-select__container {
+  width: 19%;
+}
+
+.sign-up__individual-section .splited-col-1-5 .custom-theme-select {
+  margin-top: 0.25em;
+}
+
+.custom-theme-select {
+  font-size: 2.2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.sign-up__individual-section .splited-col-1-5 label:nth-child(2) {
+  margin-top: 1em;
+  width: 79%;
+}
+
+.sign-up__individual-section .save-btn {
+  margin-top: 1em;
+}
+
+.section-step .select-selected {
+  padding-top: 0.79em;
+  padding-bottom: 0.93em;
+  margin-bottom: 4px;
+}
+
+.sign-up__individual-section {
+  display: none;
+}
+
+.sign-up__individual-section.active {
+  display: block;
+}
+
+.agree-policy {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+  padding-top: 0.8em;
+}
+
+.auth-main__row__right-col {
+  position: static;
+}
+
+.auth-copyright {
+  position: absolute;
+  bottom: 0;
+}
+
+.label-form {
+  font-size: 2.9rem !important;
+  font-weight: 500 !important;
+}

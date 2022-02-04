@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap");
+@font-face{
+    font-family: 'Berlin Sans Regular';
+    src: url('../fonts/BRLNSR.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'Berlin Sans Bold';
+    src: url('../fonts/BRLNSDB.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'Caveat Regular';
+    src: url('../fonts/Caveat-Regular.woff') format('woff');
+}

@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+  box-sizing: border-box;
+}
+
+.search-body {
+  margin: 0;
+  width: 100vw;
+  width: 100%;
+}
+.tests {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100vw;
+  background-color: #ebeeee;
+  /* background-color: #28223f; */
+}
+.member-cards {
+  min-height: 100vh;
+  align-items: center;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.hide-member-cards {
+  display: block;
+}
+.card_h3 {
+  margin: 10px 0;
+  font-size: 3rem !important;
+  font-family: "Comfortaa", cursive;
+}
+
+.card_h6 {
+  margin: 5px 0;
+  text-transform: uppercase;
+  font-size: 2.5rem !important;
+  font-family: "Comfortaa", cursive;
+}
+
+.card_p {
+  font-size: 12px;
+  line-height: 21px;
+  font-family: "Comfortaa", cursive;
+}
+
+.card-container {
+  display: inline-block;
+  position: relative;
+  background-color: #2575c0;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: #cdd1e0;
+  padding-top: 30px;
+  position: relative;
+  max-width: 370px;
+
+  text-align: center;
+
+  margin: 2rem;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card-container .pro {
+  color: #231e39;
+  background-color: #febb0b;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 7px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.card-container .round {
+  border: 1px solid #03bfcb;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  max-height: 120px;
+  max-width: 120px;
+  padding: 5px;
+}
+
+button.primary {
+  background-color: #dee8e9;
+  border: 1px solid #03bfcb;
+  border-radius: 3px;
+  color: #02899c;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 10px 25px;
+
+  margin-right: 10px;
+}
+
+button.primary.ghost {
+  background-color: #dee8e9;
+  color: #02899c;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.skills {
+  background-color: #febb0b;
+  text-align: left;
+  padding: 15px;
+  margin-top: 30px;
+}
+.skills-h6 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: rgb(77, 74, 74);
+
+  font-size: 4rem;
+  font-weight: 600;
+}
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills ul li {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 2px;
+  display: inline-block;
+
+  margin: 0 7px 7px 0;
+  padding: 7px;
+  background-color: #dee8e9;
+  color: #02899c;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#btn-card-1:hover {
+  color: white;
+  background-color: #febb0b;
+  border: 1px solid #febb0b;
+}
+#btn-card-2:hover {
+  color: white;
+  background-color: #febb0b;
+  border: 1px solid #febb0b;
+}

@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <!-- SLICK SLIDER-->
+
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <!-- SLICK SLIDER-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+    rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Source Sans Pro', sans-serif;
+      margin: 0;
+    }
+  </style>
+
+
+  <title>React App</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root" class='home-page'></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<!-- SCRIPTS -->
+<!-- <script  type='text/javascript' src='./../src/scripts//alert.js'></script> -->
+<script>
+
+  let burgerMenu = document.querySelector('.burger-menu'); // BURGER
+  let topBarNavCol = document.querySelector('.top-bar__row-col__nav'); // CONTAINER
+  let menuLinks = document.querySelectorAll('.top-bar__row-col__nav a')
+  burgerMenu.addEventListener('click', () => {
+    if (!(topBarNavCol.classList.contains('active'))) {
+      burgerMenu.classList.add('active');
+      topBarNavCol.classList.add('active');
+    }
+    else {
+      burgerMenu.classList.remove('active');
+      topBarNavCol.classList.remove('active');
+    }
+  })
+
+  menuLinks.forEach((item) => {
+    item.onclick = () => {
+      burgerMenu.classList.remove('active');
+      topBarNavCol.classList.remove('active');
+    }
+  })
+
+  function getBodyScrollTop() {
+    return self.pageYOffset || (document.documentElement && document.documentElement.scrollTop) || (document.body && document.body.scrollTop);
+  }
+
+  window.onscroll = function () {
+
+    if (getBodyScrollTop() > 0 && document.documentElement.offsetWidth > 768) {
+      document.querySelector('.top-bar').classList.add('sticky');
+
+    }
+    else {
+      document.querySelector('.top-bar').classList.remove('sticky');
+
+    }
+
+
+  }
+
+
+  const anchors = document.querySelectorAll('.top-bar__row-col__nav a')
+
+  for (let anchor of anchors) {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault()
+
+      const blockID = anchor.getAttribute('href').substr(1)
+
+      document.getElementById(blockID).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      })
+    })
+  }
+
+  $('.services-slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    infinite: false,
+    responsive: [
+      {
+        breakpoint: 620,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 340,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  });
+
+  $('.client-feedback__slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true
+  });
+
+
+
+  let passwordInputs = document.querySelectorAll(".password-input");
+  let eyeButtons = document.querySelectorAll(".password-input__security-btn");
+
+  eyeButtons.forEach((button) => {
+    button.addEventListener('click', (e) => {
+      if (button.closest('label').querySelector('.password-input').getAttribute('type') == 'password') {
+        button.closest('label').querySelector('.password-input').removeAttribute('type');
+        button.closest('label').querySelector('.password-input').setAttribute('type', 'text');
+        button.innerHTML = 'Hide';
+        return false;
+
+      }
+      else if (button.closest('label').querySelector('.password-input') != 'password') {
+        button.closest('label').querySelector('.password-input').removeAttribute('type');
+        button.closest('label').querySelector('.password-input').setAttribute('type', 'password');
+        button.innerHTML = 'Show';
+      }
+    });
+  });
+
+
+  var x, i, j, selElmnt, a, b, c;
+
+  /*look for any elements with the class "custom-select":*/
+  x = document.getElementsByClassName("custom-theme-select");
+  for (i = 0; i < x.length; i++) {
+    selElmnt = x[i].getElementsByTagName("select")[0];
+
+    /*for each element, create a new DIV that will act as the selected item:*/
+    a = document.createElement("DIV");
+    a.setAttribute("class", "select-selected");
+    a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+    x[i].appendChild(a);
+
+    /*for each element, create a new DIV that will contain the option list:*/
+    b = document.createElement("div");
+    b.setAttribute("class", "select-items select-hide");
+    for (j = 1; j < selElmnt.length; j++) {
+
+      /*for each option in the original select element,
+      create a new DIV that will act as an option item:*/
+      c = document.createElement("div");
+      c.innerHTML = selElmnt.options[j].innerHTML;
+      c.addEventListener("click", function (e) {
+
+        /*when an item is clicked, update the original select box,
+        and the selected item:*/
+        var y, i, k, s, h;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < s.length; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            for (k = 0; k < y.length; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+            break;
+          }
+        }
+        h.click();
+      });
+      b.appendChild(c);
+    }
+    x[i].appendChild(b);
+    a.addEventListener("click", function (e) {
+
+      /*when the select box is clicked, close any other select boxes,
+      and open/close the current select box:*/
+      e.stopPropagation();
+      closeAllSelect(this);
+      this.nextSibling.classList.toggle("select-hide");
+      this.classList.toggle("select-arrow-active");
+    });
+  }
+  function closeAllSelect(elmnt) {
+
+    /*a function that will close all select boxes in the document,
+    except the current select box:*/
+    var x, y, i, arrNo = [];
+    x = document.getElementsByClassName("select-items");
+    y = document.getElementsByClassName("select-selected");
+    for (i = 0; i < y.length; i++) {
+      if (elmnt == y[i]) {
+        arrNo.push(i)
+      } else {
+        y[i].classList.remove("select-arrow-active");
+      }
+    }
+    for (i = 0; i < x.length; i++) {
+      if (arrNo.indexOf(i)) {
+        x[i].classList.add("select-hide");
+      }
+    }
+  }
+
+
+  // Search File SHAHRUKH
+  // const btns = document.getElementsByClassName("searchbtn")[0];
+
+  // btns.addEventListener("click", () => {
+  //   console.log("test");
+  //   var element = document.getElementsByClassName(
+  //     "member-cards hide-member-cards"
+  //   )[0];
+  //   if (element == null) {
+  //   } else {
+  //     element.classList.remove("hide-member-cards");
+  //   }
+  // });
+  // SHAHRUKH
+
+  /*if the user clicks anywhere outside the select box,
+  then close all select boxes:*/
+  document.addEventListener("click", closeAllSelect);
+
+
+
+  // SHAHRUKH
+
+
+  $('.services-slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    infinite: false,
+    responsive: [
+      {
+        breakpoint: 620,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 340,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  });
+
+  $('.client-feedback__slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true
+  });
+
+
+  let rightArrowServicesSlider = document.querySelector('.services-slider .slick-next');
+  let leftArrowServicesSlider = document.querySelector('.services-slider .slick-prev');
+
+
+  // SHAHRUKH
+
+  let occupantsButtons = document.querySelectorAll(
+    ".sign-up__start-section__plan-block"
+  );
+  let nextButtons = document.querySelectorAll(".choose-account-btn");
+  let previousButtons = document.querySelectorAll(".previous-btn");
+
+  nextButtons.forEach((btn) => {
+    btn.onclick = function (e) {
+      e.target.closest(".sign-up__individual-section").classList.remove("active");
+      let sibling = e.target.closest(".sign-up__individual-section").nextSibling;
+      sibling.classList.add("active");
+      let progressLineCurrent = document.body.querySelector(
+        ".progress-line__block.active"
+      );
+      progressLineCurrent.classList.remove("active");
+      progressLineCurrent.classList.add("blue");
+      let progressLineSibling = progressLineCurrent.nextSibling;
+      progressLineSibling.classList.add("blue");
+      progressLineSibling.classList.add("active");
+    };
+  });
+
+  previousButtons.forEach((btn) => {
+    btn.onclick = function (e) {
+      e.target.closest(".sign-up__individual-section").classList.remove("active");
+      let sibling = e.target.closest(".sign-up__individual-section").previousSibling;
+      sibling.classList.add("active");
+      let progressLineCurrent = document.body.querySelector(
+        ".progress-line__block.active"
+      );
+      progressLineCurrent.classList.remove("active");
+      progressLineCurrent.classList.remove("blue");
+      let progressLineSibling =
+        progressLineCurrent.previousSibling;
+      progressLineSibling.classList.add("blue");
+      progressLineSibling.classList.add("active");
+    };
+  });
+
+  occupantsButtons.forEach((element) => {
+    element.addEventListener("click", () => {
+      occupantsButtons.forEach((el) => {
+        el.classList.remove("active");
+      });
+      element.classList.add("active");
+    });
+  });
+
+  let cardNumberInput = document.body.querySelector(".card-number-input");
+  let maskOptionsNumber = {
+    mask: "****-****-****-****",
+    min: -10000,
+    max: 10000,
+    thousandsSeparator: "",
+  };
+  let maskNumberInput = IMask(cardNumberInput, maskOptionsNumber);
+
+  let cvvCodeInput = document.querySelector(".cvv-code");
+  cvvCodeInput.addEventListener("input", () => {
+    if (cvvCodeInput.value.length > 3) {
+      cvvCodeInput.value = cvvCodeInput.value.substr(0, 3);
+    }
+  });
+
+  let cardDateInput = document.body.querySelector(".card-number-date");
+  let maskOptionsDate = {
+    mask: "**/**",
+    min: -10000,
+    max: 10000,
+    thousandsSeparator: "",
+  };
+  let maskCardInput = IMask(cardDateInput, maskOptionsDate);
+
+  let step1 = document.querySelector(".circle-1");
+  let step2 = document.querySelector(".circle-2");
+  let step3 = document.querySelector(".circle-3");
+  let step4 = document.querySelector(".circle-4");
+  // let step5 = document.querySelector(".circle-5");
+  // let step6 = document.querySelector(".circle-6");
+  // let step7 = document.querySelector(".circle-7");
+  // let step8 = document.querySelector(".circle-8");
+
+  step1.onclick = function (e) {
+    if (step1.classList.contains("blue") && !step1.classList.contains("active")) {
+      step1.classList.add("active");
+      step1.classList.add("blue");
+
+      step2.classList.remove("active");
+      step2.classList.remove("blue");
+
+      step3.classList.remove("active");
+      step3.classList.remove("blue");
+
+      step4.classList.remove("active");
+      step4.classList.remove("blue");
+
+      document.body
+        .querySelector(".sign-up__start-section.active")
+        .classList.remove("active");
+      document.body.querySelector(".step-1").classList.add("active");
+    }
+  };
+
+  step2.onclick = function (e) {
+    if (step2.classList.contains("blue") && !step2.classList.contains("active")) {
+      step2.classList.add("active");
+      step2.classList.add("blue");
+
+      step1.classList.remove("active");
+      step1.classList.add("blue");
+
+      step3.classList.remove("active");
+      step3.classList.remove("blue");
+
+      step4.classList.remove("active");
+      step4.classList.remove("blue");
+
+      step5.classList.remove("active");
+      step5.classList.remove("blue");
+
+      step6.classList.remove("active");
+      step6.classList.remove("blue");
+
+      step7.classList.remove("active");
+      step7.classList.remove("blue");
+
+      step8.classList.remove("active");
+      step8.classList.remove("blue");
+
+      document.body
+        .querySelector(".sign-up__start-section.active")
+        .classList.remove("active");
+      document.body.querySelector(".step-2").classList.add("active");
+    }
+  };
+
+  step3.onclick = function (e) {
+    if (step3.classList.contains("blue") && !step3.classList.contains("active")) {
+      step2.classList.remove("active");
+      step2.classList.add("blue");
+
+      step1.classList.remove("active");
+      step1.classList.add("blue");
+
+      step3.classList.add("active");
+      step3.classList.add("blue");
+
+      step4.classList.remove("active");
+      step4.classList.remove("blue");
+
+      step5.classList.remove("active");
+      step5.classList.remove("blue");
+
+      step6.classList.remove("active");
+      step6.classList.remove("blue");
+
+      step7.classList.remove("active");
+      step7.classList.remove("blue");
+
+      step8.classList.remove("active");
+      step8.classList.remove("blue");
+
+      document.body
+        .querySelector(".sign-up__start-section.active")
+        .classList.remove("active");
+      document.body.querySelector(".step-3").classList.add("active");
+    }
+  };
+
+  step4.onclick = function (e) {
+    if (step4.classList.contains("blue") && !step4.classList.contains("active")) {
+      step2.classList.remove("active");
+      step2.classList.add("blue");
+
+      step1.classList.remove("active");
+      step1.classList.add("blue");
+
+      step3.classList.remove("active");
+      step3.classList.add("blue");
+
+      step4.classList.add("active");
+      step4.classList.add("blue");
+
+      step5.classList.remove("active");
+      step5.classList.remove("blue");
+
+      step6.classList.remove("active");
+      step6.classList.remove("blue");
+
+      step7.classList.remove("active");
+      step7.classList.remove("blue");
+
+      step8.classList.remove("active");
+      step8.classList.remove("blue");
+
+      document.body
+        .querySelector(".sign-up__start-section.active")
+        .classList.remove("active");
+      document.body.querySelector(".step-4").classList.add("active");
+    }
+  };
+
+  // step5.onclick = function (e) {
+  //   if (step4.classList.contains("blue") && !step4.classList.contains("active")) {
+  //     step2.classList.remove("active");
+  //     step2.classList.add("blue");
+
+  //     step1.classList.remove("active");
+  //     step1.classList.add("blue");
+
+  //     step3.classList.remove("active");
+  //     step3.classList.add("blue");
+
+  //     step4.classList.remove("active");
+  //     step4.classList.add("blue");
+
+  //     step5.classList.add("active");
+  //     step5.classList.add("blue");
+
+  //     step6.classList.remove("active");
+  //     step6.classList.remove("blue");
+
+  //     step7.classList.remove("active");
+  //     step7.classList.remove("blue");
+
+  //     step8.classList.remove("active");
+  //     step8.classList.remove("blue");
+
+  //     document.body
+  //       .querySelector(".sign-up__start-section.active")
+  //       .classList.remove("active");
+  //     document.body.querySelector(".step-5").classList.add("active");
+  //   }
+  // };
+
+  // step6.onclick = function (e) {
+  //   if (step6.classList.contains("blue") && !step6.classList.contains("active")) {
+  //     step2.classList.remove("active");
+  //     step2.classList.add("blue");
+
+  //     step1.classList.remove("active");
+  //     step1.classList.add("blue");
+
+  //     step3.classList.remove("active");
+  //     step3.classList.add("blue");
+
+  //     step4.classList.remove("active");
+  //     step4.classList.add("blue");
+
+  //     step5.classList.remove("active");
+  //     step5.classList.add("blue");
+
+  //     step6.classList.add("active");
+  //     step6.classList.add("blue");
+
+  //     step7.classList.remove("active");
+  //     step7.classList.remove("blue");
+
+  //     step8.classList.remove("active");
+  //     step8.classList.remove("blue");
+
+  //     document.body
+  //       .querySelector(".sign-up__start-section.active")
+  //       .classList.remove("active");
+  //     document.body.querySelector(".step-6").classList.add("active");
+  //   }
+  // };
+
+  // step7.onclick = function (e) {
+  //   if (step7.classList.contains("blue") && !step7.classList.contains("active")) {
+  //     step2.classList.remove("active");
+  //     step2.classList.add("blue");
+
+  //     step1.classList.remove("active");
+  //     step1.classList.add("blue");
+
+  //     step3.classList.remove("active");
+  //     step3.classList.add("blue");
+
+  //     step4.classList.remove("active");
+  //     step4.classList.add("blue");
+
+  //     step5.classList.remove("active");
+  //     step5.classList.add("blue");
+
+  //     step6.classList.remove("active");
+  //     step6.classList.add("blue");
+
+  //     step7.classList.add("active");
+  //     step7.classList.add("blue");
+
+  //     document.body
+  //       .querySelector(".sign-up__start-section.active")
+  //       .classList.remove("active");
+  //     document.body.querySelector(".step-7").classList.add("active");
+  //   }
+  // };
+
+  // step8.onclick = function (e) {
+  //   if (step8.classList.contains("blue") && !step8.classList.contains("active")) {
+  //     step2.classList.remove("active");
+  //     step2.classList.add("blue");
+
+  //     step1.classList.remove("active");
+  //     step1.classList.add("blue");
+
+  //     step3.classList.remove("active");
+  //     step3.classList.add("blue");
+
+  //     step4.classList.remove("active");
+  //     step4.classList.add("blue");
+
+  //     step5.classList.remove("active");
+  //     step5.classList.add("blue");
+
+  //     step6.classList.remove("active");
+  //     step6.classList.add("blue");
+
+  //     step7.classList.remove("active");
+  //     step7.classList.add("blue");
+
+  //     step8.classList.add("active");
+  //     step8.classList.add("blue");
+
+  //     document.body
+  //       .querySelector(".sign-up__start-section.active")
+  //       .classList.remove("active");
+  //     document.body.querySelector(".step-8").classList.add("active");
+  //   }
+  // };
+
+  // SHAHRUKH
+
+
+
+</script>
+<script src="https://unpkg.com/imask"></script>
+
+
+
+
+</html>

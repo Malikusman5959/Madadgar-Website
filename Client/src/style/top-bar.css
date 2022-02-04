@@ -1,0 +1,121 @@
+@import "variables.css";
+.top-bar {
+  font-size: 5px;
+  padding:0;
+  transition: 0.1s ease-in-out;
+  margin: 0;
+}
+
+.top-bar__row-col__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.top-bar__row-col__nav ul {
+  width:100%;
+  display: flex;
+  justify-content:space-evenly ;
+  align-items: center;
+}
+
+
+.top-bar__row-col__nav ul li {
+  list-style-type: none;
+  margin-top: 3px;
+}
+
+.top-bar__row-col__nav ul li a {
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+
+  color: var(--white);
+}
+
+/* clash */
+.top-bar__row {
+  display: flex;
+  align-items: center;
+  /* padding-top: 1em; */
+  background-color: var(--main-navbar-color);
+  color: white;
+}
+
+.top-bar__row-col__logo img {
+  max-width: 8em;
+  margin-left: 2rem;
+}
+
+.top-bar__row-col__auth {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Roboto", sans-serif;
+ 
+}
+
+.top-bar__row-col__auth .sign-in-btn {
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: var(--main-red-color);
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+}
+#sigin {
+  margin-left: -20px;
+  margin-right: -20px;
+  height: 100px;
+}
+
+.welcome-user {
+  font-size: 2em;
+  margin-top:2% ;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: var(--main-color);
+}
+
+.welcome-user:hover {
+  color: var(--main-yellow-color);
+  box-shadow: 0px 0px 6px 0px #908585;
+ 
+}
+
+.auth .top-bar__row-col__logo img {
+  max-width: 18em;
+}
+
+.top-bar.sticky {
+  background-color: var(--main-navbar-color);
+  z-index: 111;
+  box-shadow: 0px 0px 6px 0px #908585;
+}
+
+.top-bar.sticky .top-bar__row {
+  padding: 0.5em 0em;
+}
+
+.top-bar.sticky a {
+  color: rgb(255, 255, 255) !important;
+}
+
+.top-bar.sticky img {
+  max-width: 8em;
+}
+
+.qet-quote-btn {
+  color: var(--main-red-color);
+  font-size: 2.5em;
+  font-family: "Roboto", sans-serif;
+}
+
+.qet-quote-btn:hover {
+  color: var(--main-red-color);
+}
+
+.cir-btn-hd {
+  font-size: 5em;
+  color: var(--main-navbar-color);
+}

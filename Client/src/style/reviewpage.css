@@ -1,0 +1,41 @@
+.RatingClass h1{
+    font-size: large;
+margin-top: 1%;
+    text-align: left;
+}
+
+.ReviewStars{
+    font-size: large;
+    margin: 1%;
+    text-align: left;
+
+}
+
+.RateBtn{
+    background-color: var(--main-navbar-color); 
+    border: none; 
+    color: white;
+    cursor: pointer;
+    width: 10%;
+    padding: 2%;
+    margin: 8px 10%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: medium;
+    float: right;
+
+
+}
+
+.II{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: medium;
+    background: #f1f1f1;
+    height: 200px;
+}

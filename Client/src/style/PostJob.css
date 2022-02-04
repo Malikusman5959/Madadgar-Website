@@ -1,0 +1,119 @@
+.formContainer{
+    display: block !important;
+    width: 50% !important;
+    justify-items: center !important;
+    margin: 0% 20% 6% !important;
+}
+
+.Lname b{
+font-size: medium !important;
+color:rgb(33, 31, 31) !important;
+}
+
+.IIB{
+    width: 100% !important ;
+    padding: 12px 20px !important;
+    margin: 8px 0 !important;
+    display: block !important;
+    border: 1px solid #ccc ;
+    border-radius: 4px !important;
+    box-sizing: border-box !important;
+    font-size: medium !important;
+    background: #f1f1f1 !important;
+}
+
+
+.btn-group button {
+    background-color: var(--main-navbar-color) !important; 
+    border: none !important; 
+    color: white !important;
+    cursor: pointer !important;
+    float: left !important; 
+    width: 100% !important;
+    padding: 12px 20px !important;
+    margin: 8px 0 !important;
+    display: block !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    box-sizing: border-box !important;
+    font-size: medium !important;
+
+   
+  }
+  
+  .btn-group .bye{
+  border-radius: 50px 0px 0px 50px !important;
+
+  }
+  .btn-group .hello{
+  border-radius: 0px 50px 50px 0px !important;
+
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "" ;
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: lightBlue;
+  }
+
+  .Jobbtn{
+    background-color: var(--main-navbar-color) !important; /* Green */
+    border: none !important;
+    color: white !important;
+    padding: 15px 32px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+    margin: 4px 2px !important;
+    cursor: pointer !important;
+  }
+  .Jobbtn:hover{
+    background-color:lightBlue;
+  }
+  .skillCard {
+    display: inline-block !important;
+    border: 1px solid var(--main-navbar-color) !important;
+    position: relative !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    margin: 1px !important;
+    background-color: #c5e3fc;;
+    border-radius: 10px !important;
+    font-family: "Roboto", "sans-serif" !important;
+    padding-right: 2em !important;
+    font-size: medium !important;
+  }
+  
+  .skillCard .skilll {
+    font-size: 1em !important;
+  }
+  
+  .skillCard .close-btn {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    height: 1em !important;
+    width: 1em !important;
+    font-size: 1em !important;
+    padding-left: 0.5em;
+    transition: 0.1s ease-in-out;
+    border: none;
+ 
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .skillCard .close-btn:hover {
+    background-color: var(--main-navbar-color);
+    color: var(--main-navbar-color);
+  }

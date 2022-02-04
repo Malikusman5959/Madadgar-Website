@@ -1,0 +1,23 @@
+.ChatBoxBannerContainer{
+    height :  60px;
+    background-color: rgb(241, 228, 228);
+    position: sticky;
+    padding: 10px;
+    border-bottom: lightgray solid 0.5px;
+    display: flex;
+
+}
+.UserImage{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+.UserName{
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+
+}

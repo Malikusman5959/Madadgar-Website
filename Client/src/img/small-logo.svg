@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="63.667" viewBox="0 0 56 63.667">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#bf0404}.prefix__cls-3{fill:#d62121}.prefix__cls-5{fill:#4dc9eb}.prefix__cls-6{fill:#f9b813}.prefix__cls-7{fill:#fbd479}.prefix__cls-8{fill:#248471}.prefix__cls-9{fill:#2f94d2}
+        </style>
+    </defs>
+    <g id="prefix__Group_96" data-name="Group 96" transform="translate(-138 -32.743)">
+        <g id="prefix__Group_10" data-name="Group 10" transform="translate(148.778 32.743)">
+            <path id="prefix__Path_145" d="M445.437 176.506l-9.763-9.763H455.2z" data-name="Path 145" transform="translate(-426.811 -166.743)" style="fill:#f73737"/>
+            <path id="prefix__Path_146" d="M531.2 166.743V180.6l-2.892 2.783-6.874-6.874z" class="prefix__cls-2" data-name="Path 146" transform="translate(-502.808 -166.743)"/>
+            <path id="prefix__Path_147" d="M435.675 166.743V180.5l2.892 2.878 6.871-6.874z" class="prefix__cls-2" data-name="Path 147" transform="translate(-426.811 -166.743)"/>
+            <path id="prefix__Path_148" d="M467.948 252.5l6.874 6.874-6.872 6.924-6.872-6.924z" class="prefix__cls-3" data-name="Path 148" transform="translate(-449.322 -242.74)"/>
+            <path id="prefix__Path_149" d="M467.948 372.043l6.874 6.874-7.043 7.04-6.7-7.04z" data-name="Path 149" transform="translate(-449.322 -348.672)" style="fill:#35a793"/>
+            <path id="prefix__Path_150" d="M482.736 492.159l4.922 5-5.094 5.167-4.8-5.165z" class="prefix__cls-5" data-name="Path 150" transform="translate(-464.109 -455.114)"/>
+            <path id="prefix__Path_151" d="M528.317 313.326l6.874 6.874-6.77 6.767-6.975-6.767z" class="prefix__cls-6" data-name="Path 151" transform="translate(-502.818 -296.639)"/>
+            <path id="prefix__Path_152" d="M407.58 312.883l6.872 6.924-6.77 6.767-6.975-6.767z" class="prefix__cls-7" data-name="Path 152" transform="translate(-395.825 -296.247)"/>
+            <path id="prefix__Path_153" d="M584.707 294.113v-5.674l-2.892 2.783z" class="prefix__cls-3" data-name="Path 153" transform="translate(-556.315 -274.585)"/>
+            <path id="prefix__Path_154" d="M584.707 413.906v-5.675l-2.892 2.735z" class="prefix__cls-7" data-name="Path 154" transform="translate(-556.315 -380.74)"/>
+            <path id="prefix__Path_155" d="M569.512 503.1v-10l-4.844 4.893z" class="prefix__cls-8" data-name="Path 155" transform="translate(-541.12 -455.946)"/>
+            <path id="prefix__Path_156" d="M435.675 287.6v5.829l2.892-2.951z" class="prefix__cls-7" data-name="Path 156" transform="translate(-426.811 -273.843)"/>
+            <path id="prefix__Path_157" d="M433.446 492.422l-.03 10.077 5.049-5.106z" class="prefix__cls-9" data-name="Path 157" transform="translate(-424.81 -455.347)"/>
+            <path id="prefix__Path_158" d="M520.029 541.187h9.935l-4.854-5.107z" class="prefix__cls-5" data-name="Path 158" transform="translate(-501.563 -494.035)"/>
+            <path id="prefix__Path_159" d="M433.416 541.2h9.86l-4.811-5.106z" class="prefix__cls-5" data-name="Path 159" transform="translate(-424.81 -494.045)"/>
+            <path id="prefix__Path_160" d="M362.828 372.571l6.845 6.9-4.973 4.989-6.885-6.928z" class="prefix__cls-6" data-name="Path 160" transform="translate(-357.816 -349.139)"/>
+            <path id="prefix__Path_161" d="M438.7 444.873l4.971-5-6.769-6.717-3.221 3.232v3.512z" class="prefix__cls-9" data-name="Path 161" transform="translate(-425.044 -402.826)"/>
+            <path id="prefix__Path_162" d="M528.308 432.257l4.985 4.933-6.937 6.886-4.922-5z" class="prefix__cls-8" data-name="Path 162" transform="translate(-502.808 -402.031)"/>
+        </g>
+        <text id="prefix___INVICTUS" data-name="INVICTUS" transform="translate(166 90.251)" style="font-size:9px;font-family:Arial-Black,Arial;font-weight:800">
+            <tspan x="-26" y="0">INVICTUS</tspan>
+        </text>
+        <text id="prefix__Design___Engineering___Solutions" data-name="Design . Engineering . Solutions" transform="translate(166 95.41)" style="fill:#2f3133;font-size:4px;font-family:SegoeUI,Segoe UI">
+            <tspan x="-27.833" y="0">Design . Engineering . Solutions</tspan>
+        </text>
+    </g>
+</svg>

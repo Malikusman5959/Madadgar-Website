@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="405.008" height="590.669" viewBox="0 0 405.008 590.669">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#bf0404}.prefix__cls-3{fill:#d62121}.prefix__cls-5{fill:#4dc9eb}.prefix__cls-6{fill:#f9b813}.prefix__cls-7{fill:#fbd479}.prefix__cls-8{fill:#248471}.prefix__cls-9{fill:#2f94d2}
+        </style>
+    </defs>
+    <g id="prefix__Group_80" data-name="Group 80" transform="translate(-139.592 -267.743)">
+        <g id="prefix__Group_34" data-name="Group 34" transform="translate(139.592 267.743)">
+            <path id="prefix__Path_145" d="M557.816 288.885L435.675 166.743h244.317z" data-name="Path 145" transform="translate(-324.785 -166.743)" style="fill:#f73737"/>
+            <path id="prefix__Path_146" d="M643.61 166.743v173.325l-36.18 34.815-86-86z" class="prefix__cls-2" data-name="Path 146" transform="translate(-288.403 -166.743)"/>
+            <path id="prefix__Path_147" d="M435.675 166.743v172.132l36.179 36.008 85.963-86z" class="prefix__cls-2" data-name="Path 147" transform="translate(-324.785 -166.743)"/>
+            <path id="prefix__Path_148" d="M547.04 252.5l86 86-85.98 86.628-85.983-86.628z" class="prefix__cls-3" data-name="Path 148" transform="translate(-314.009 -130.36)"/>
+            <path id="prefix__Path_149" d="M547.04 372.043l86 86-88.111 88.077-83.849-88.077z" data-name="Path 149" transform="translate(-314.009 -79.645)" style="fill:#35a793"/>
+            <path id="prefix__Path_150" d="M539.961 492.159l61.575 62.554-63.736 64.643-60.035-64.625z" class="prefix__cls-5" data-name="Path 150" transform="translate(-306.929 -28.687)"/>
+            <path id="prefix__Path_151" d="M607.409 313.326l86 86-84.7 84.667-87.259-84.667z" class="prefix__cls-6" data-name="Path 151" transform="translate(-288.397 -104.556)"/>
+            <path id="prefix__Path_152" d="M486.688 312.883l85.98 86.628-84.7 84.667-87.259-84.667z" class="prefix__cls-7" data-name="Path 152" transform="translate(-339.62 -104.744)"/>
+            <path id="prefix__Path_153" d="M617.994 359.432v-70.993l-36.179 34.815z" class="prefix__cls-3" data-name="Path 153" transform="translate(-262.786 -115.114)"/>
+            <path id="prefix__Path_154" d="M617.994 479.225v-70.994l-36.179 34.218z" class="prefix__cls-7" data-name="Path 154" transform="translate(-262.786 -64.293)"/>
+            <path id="prefix__Path_155" d="M625.268 618.212V493.1l-60.6 61.217z" class="prefix__cls-8" data-name="Path 155" transform="translate(-270.061 -28.288)"/>
+            <path id="prefix__Path_156" d="M435.675 287.6v72.923l36.179-36.914z" class="prefix__cls-7" data-name="Path 156" transform="translate(-324.785 -115.47)"/>
+            <path id="prefix__Path_157" d="M433.792 492.422l-.376 126.078 63.162-63.879z" class="prefix__cls-9" data-name="Path 157" transform="translate(-325.744 -28.575)"/>
+            <path id="prefix__Path_158" d="M520.029 599.977h124.3l-60.723-63.9z" class="prefix__cls-5" data-name="Path 158" transform="translate(-288.998 -10.054)"/>
+            <path id="prefix__Path_159" d="M433.416 599.971h123.358l-60.2-63.879z" class="prefix__cls-5" data-name="Path 159" transform="translate(-325.744 -10.048)"/>
+            <path id="prefix__Path_160" d="M420.523 372.571l85.641 86.286-62.214 62.418-86.134-86.675z" class="prefix__cls-6" data-name="Path 160" transform="translate(-357.816 -79.422)"/>
+            <path id="prefix__Path_161" d="M496.467 579.762l62.2-62.571-84.684-84.037-40.3 40.43v43.981z" class="prefix__cls-9" data-name="Path 161" transform="translate(-325.631 -53.719)"/>
+            <path id="prefix__Path_162" d="M607.431 432.257l62.369 61.719-86.788 86.151-61.575-62.554z" class="prefix__cls-8" data-name="Path 162" transform="translate(-288.403 -54.1)"/>
+        </g>
+    </g>
+</svg>

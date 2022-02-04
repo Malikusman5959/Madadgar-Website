@@ -1,0 +1,24 @@
+.adminhomepage{
+    flex: 4;
+}
+
+.mainHeading{
+    display:flex;
+    padding: 5px;
+    margin: 20px 0px 40px 15px;
+}
+.topHeading{
+    flex:5;
+    font-size: 35px;
+}
+.questionButton{
+    flex: 1;
+    margin:0px 10px 0px 10px;
+    width: auto;
+    font-size: 20px;
+    border-radius: 10px;
+    background: rgb(13, 70, 97);
+    color:whitesmoke;
+    border-color: rgb(24, 24, 109);
+    
+}

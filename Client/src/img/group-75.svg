@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#4acaea}
+        </style>
+    </defs>
+    <g id="prefix__Group_75" data-name="Group 75" transform="translate(-1399 -802)">
+        <circle id="prefix__Ellipse_7" cx="40" cy="40" r="40" data-name="Ellipse 7" transform="translate(1399 802)" style="fill:#fff"/>
+        <g id="prefix__address" transform="translate(1421.855 818)">
+            <path id="prefix__Path_401" d="M81.467 73.743v9.625h3.5v-6.125a.875.875 0 0 1 .875-.875h5.25a.875.875 0 0 1 .875.875v6.125h3.5v-9.625a.875.875 0 0 1 .875-.875h.928l-8.8-6.77-8.8 6.77h.928a.875.875 0 0 1 .875.875zm0 0" class="prefix__cls-2" data-name="Path 401" transform="translate(-70.822 -58.868)"/>
+            <path id="prefix__Path_402" d="M144.145 176h3.5v5.25h-3.5zm0 0" class="prefix__cls-2" data-name="Path 402" transform="translate(-128.25 -156.75)"/>
+            <path id="prefix__Path_403" d="M17.645 48.484c3.292-4.111 17.5-22.348 17.5-30.984a17.5 17.5 0 0 0-35 0c0 8.638 14.207 26.874 17.5 30.984zm-11.909-34.3l11.375-8.75a.874.874 0 0 1 1.067 0l11.375 8.75a.875.875 0 0 1-.534 1.565h-2.624v9.625a.875.875 0 0 1-.875.875H9.77a.875.875 0 0 1-.875-.875V15.75H6.27a.875.875 0 0 1-.534-1.568zm0 0" class="prefix__cls-2" data-name="Path 403"/>
+        </g>
+    </g>
+</svg>

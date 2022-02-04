@@ -1,0 +1,32 @@
+
+.mainContainer{
+    margin: 0px 0px 200px 15px;
+}
+.mainHeading{
+    display:flex;
+    padding: 10px;
+    margin: 20px 0px 20px 15px;
+}
+.topHeading{
+    flex:5;
+    font-size: 35px;
+}
+.InputLabel{
+    
+    font-size: 16px;
+    font-weight: 600;
+}
+.TitleInput{
+    font-size: 14px;
+   
+}
+.post{
+    margin-top: 25px;
+    width:15%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: whitesmoke;
+    border-radius: 5px;
+    background-color: rgb(22, 31, 36);
+}

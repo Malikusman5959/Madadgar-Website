@@ -1,0 +1,218 @@
+.MainDiv{
+    padding: 16px;
+    background-color: white;
+    width:300px !important;
+    box-sizing: border-box;
+    height:800px
+  }
+
+  .MainDiv1{
+    padding: 16px;
+    background-color: white;
+    width:400px !important;
+    box-sizing: border-box;
+    height:800px
+
+  }
+
+
+.formm{
+    display: flex;
+    height:"750px"
+}
+
+.labels{
+    margin:0 !important;
+    font-size: medium !important;
+    font-weight: 100 !important;
+}
+  
+.inputClass{
+padding: 0 !important;
+
+
+}
+.addBtn{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.addBtn{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  padding: 5px 8px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.addBtn:hover{
+background-color: #008CBA;
+color: white;}
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    /* margin: 5px 0 22px 0; */
+    display: inline-block;
+    padding: 10px !important;
+    border: "1px solid black";
+    /* background: #f1f1f1; */
+    box-sizing: border-box;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color:  var(--main-navbar-color);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    box-sizing: border-box;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+    box-sizing: border-box;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+    box-sizing: border-box;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .skillCard1 {
+    display: inline-block;
+    border: 1px solid var(--main-navbar-color);
+    position: relative;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    margin: 1px !important;
+    background-color: #eff3f7;
+    border-radius: 10px;
+    font-family: "Roboto", "sans-serif";
+    padding-right: 2em;
+  }
+  
+  .skillCard .skilll {
+    font-size: 1em !important;
+  }
+  
+  .skillCard .close-btn {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    height: 1em !important;
+    width: 1em !important;
+    font-size: 1em !important;
+    padding-left: 0.5em;
+    transition: 0.1s ease-in-out;
+    border: none;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .skillCard .close-btn:hover {
+    background-color: var(--main-navbar-color);
+    color: var(--main-navbar-color);
+  }
+
+  /* .edu-back .institute {
+    font-size: 3.2em;
+  }
+  
+  .edu-back {
+    margin-top: 20px;
+  }
+  
+  .edu-back .degree {
+    font-size: 2.8em;
+    padding: 0px;
+    font-style: italic;
+  }
+  
+  .edu-back .year {
+    padding: 0px;
+    font-size: 2.8em;
+  } */
+  
+  .eduCard {
+    border: 1px solid var(--main-navbar-color);
+    position: relative;
+    margin: 2px;
+    background-color: #c5e3fc;
+    border-radius: 10px;
+    font-family: "Roboto", "sans-serif";
+    padding: 2px;
+    width: 18em !important;
+  }
+  
+  .eduCard .Institute {
+    font-size: 1em;
+  }
+  
+  .eduCard .Degree {
+    font-size: 1.2em;
+    padding: 0px;
+    font-style: italic;
+  }
+  
+  .eduCard .Year {
+    padding: 0px;
+    font-size: 1.2em;
+  }
+  
+  .eduCard .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 1em;
+    width: 1em;
+    font-size: 1em;
+    padding-left: 0.5em;
+    transition: 0.1s ease-in-out;
+    border-radius: 50%;
+    border: none;
+    color: blue;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .eduCard  .close-btn:hover {
+    background-color: #fff;
+    color: var(--main-navbar-color);
+  }
+  

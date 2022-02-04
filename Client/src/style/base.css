@@ -1,0 +1,131 @@
+*, p{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 45%;
+}
+
+.container{
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0rem 12rem;
+}
+
+.services__container{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 7rem 0rem 4rem 0rem;
+}
+
+body{
+    font-family: 'Berlin Sans Regular', sans-serif;
+    font-size: 100%;
+}
+
+
+.top-bar__row-col__nav::-webkit-scrollbar{
+    height: 0.55rem;
+    margin-right: 10px;
+    width: 0.22rem;
+    background: #fff;
+}
+
+.top-bar__row-col__nav::-webkit-scrollbar-track{
+    height: 0.56rem;
+    width: 0.22rem;
+    background: #D8E6E7;
+}
+
+.top-bar__row-col__nav::-webkit-scrollbar-thumb{
+    background: rgba(51, 51, 51, 0.5);
+    opacity: 0.3;
+    border-radius: 1ex;
+}
+
+.top-bar__row-col__nav::-webkit-scrollbar-corner{
+    background: #fff;
+}
+.top-bar__row-col__nav::-webkit-scrollbar-thumb{
+    background: rgba(51, 51, 51, 0.5);
+    opacity: 0.3;
+    border-radius: 1ex;
+}
+
+.main-btn{
+    border: solid 2px var(--main-navbar-color) !important;
+}
+
+.main-btn:hover{
+    color: var(--main-navbar-color);
+    background: transparent;
+    border: solid 2px var(--main-navbar-color);
+}
+
+.main-btn_transparent{
+    border: solid 2px var(--main-navbar-color) !important;
+}
+
+.main-btn_transparent:hover{
+    color: #FFF !important;
+    background-color: var(--main-navbar-color) !important;
+    border: solid 2px var(--main-navbar-color);
+}
+
+.auth-main__row__left-col{
+    display: flex;
+    justify-content: center;
+}
+
+.auth-main__row__left-col h1{
+    max-width: 420px;
+    position: fixed;
+}
+
+.contact-us__info-col a{
+    margin: 0 auto;
+}
+
+.contact-us__info-col div, .contact-us__form-col div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    max-width: 520px;
+    padding: 0px 3rem;
+}
+
+.contact-us__info-col a{
+    margin-bottom: 2em;
+}
+
+.why-ids{
+    position: relative;
+}
+
+.why-ids .section-title{
+    padding-bottom: 5rem !important;
+}
+
+.why-ids p{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    font-weight: 400;
+}
+
+.why-ids div{
+    position: relative;
+}
+
+.why-ids img{
+    width: 100%;
+}
+
+.auth{
+    overflow-x: hidden;
+}
